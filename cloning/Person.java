@@ -11,7 +11,7 @@ public class Person implements Cloneable {
 	
 	@Override
 	public String toString() {
-		return "Person [Name=" + name + ", Address=" + address + "]";
+		return "[Name=" + name + ", Address=" + address + "]";
 	}
 
 	@Override
